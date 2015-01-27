@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         Scroll Gestures
+// @namespace    http://juribiyan.github.com
+// @version      1.0
+// @description  Scroll to top or bottom using RMB+scroll
+// @author       Snivy
+// @match         *://*/*
+// @grant        none
+// ==/UserScript==
+
 var rmbd;
 
 document.body.onmousedown = function (e) {
